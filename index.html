@@ -86,7 +86,7 @@
                 These are the few things you need to learn before starting any development...
             </p>
             <div class="row">
-                <a href="" class="card">
+                <a class="card" id="terminal">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/terminal.png" alt="" srcset="">
@@ -98,7 +98,7 @@
                             referred to as the shell, terminal, console, prompt or various other names</div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="git">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/git.png" alt="" srcset="">
@@ -111,7 +111,7 @@
                             easy to learn and has a tiny footprint with lightning fast performance.</div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="dsa">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/dsa.png" alt="" srcset="">
@@ -137,7 +137,7 @@
                 Front-End is the visible part of any website.
             </p>
             <div class="row">
-                <a href="" class="card">
+                <a class="card" id="uiux">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/uiux.png" alt="" srcset="">
@@ -151,7 +151,7 @@
                             experience.</div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="htmlcss">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/htmlcss.png" alt="" srcset="">
@@ -164,7 +164,7 @@
                             control the layout of multiple web pages all at once.</div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="bootstrap">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/bootstrap.png" alt="" srcset="">
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="semantic">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/semantic.png" alt="" srcset="">
@@ -193,7 +193,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="js">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/js.png" alt="" srcset="">
@@ -208,7 +208,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="react">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/react.png" alt="" srcset="">
@@ -235,7 +235,7 @@
                 Back-End is the skeleton part of any website. It takes care of functionality
             </p>
             <div class="row">
-                <a href="" class="card">
+                <a class="card" id="nodejs">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/nodejs.png" alt="" srcset="">
@@ -247,7 +247,7 @@
                             that executes JavaScript code outside of a browser.</div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="expressjs">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/ExpressJS.png" alt="" srcset="">
@@ -261,7 +261,7 @@
                             framework for Node.js.</div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="sql">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/SQL.png" alt="" srcset="">
@@ -275,7 +275,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="mongodb">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/mongodb.png" alt="" srcset="">
@@ -289,7 +289,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="firebase">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/firebase.png" alt="" srcset="">
@@ -303,7 +303,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="card">
+                <a class="card" id="gcloud">
                     <div class="card-head bg-white">
                         <div class="img-placeholder">
                             <img src="img/gcloud.png" alt="" srcset="">
@@ -327,13 +327,12 @@
         <div class="section">
             <h1 class="section-title green">That's all folks</h1>
             <p>
-               And that should be enough knowledge to start making beautiful websites ;)
+                And that should be enough knowledge to start making beautiful websites ;)
             </p>
         </div>
     </div>
     <!-- End of Conclusion -->
 
-    
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -345,15 +344,67 @@
                 </div>
                 <div class="about-text">
                     <h1>Vinayak Tekade</h1>
-                    <p>Hey, I'm Vinayak Tekade. As an energetic, fun loving, and highly self-motivated person, I strongly believe in accomplishing
-                        every task responsibly and within the time allotted. With an eye for detail, I always make sure that
+                    <p>Hey, I'm Vinayak Tekade. As an energetic, fun loving, and highly self-motivated person, I
+                        strongly believe in accomplishing
+                        every task responsibly and within the time allotted. With an eye for detail, I always make sure
+                        that
                         my submissions do not lack the standards in terms of design and content.</p>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- End of Footer -->
 
+    <!-- Popup -->
+    <div class="popup">
+        <span class="helper"></span>
+        <div class="popup-content">
+            <div class="popupCloseButton red">&times;</div>
+
+            <div class="popup-text" id="terminal-popup">
+                <div class="popup-head">
+                    <h1 class="popup-title red">The Linux Terminal</h1>
+                    <div class="popup-desc">Not just a web developer but for any programmer, the Linux command line is
+                        very very important and I strongly recommend you to spend some time to learn them. The Linux
+                        command line basics course on Udemy is a good place to start with and if you like free courses,
+                        you can use these free Linux courses to start learning Linux.</div>
+                </div>
+                <ol>
+                    <li>
+                        <div class="link-title"><a href="https://www.learnenough.com/command-line-tutorial"
+                                target="_blank">
+                                <h3>Learn Enough Command Line to Be Dangerous</h3>
+                            </a></div>
+                        <div class="link-content">Free command line tutorial for complete beginners. Walks you through
+                            the basics of the Unix command line—no technical prerequisites required.</div>
+                    </li>
+                    <li>
+                        <div class="link-title"><a href="https://commandlinepoweruser.com/" target="_blank">
+                                <h3> Command Line Power User</h3>
+                            </a></div>
+                        <div class="link-content">Free video series created by Wes Bos. More at an intermediate level,
+                            so not for total newbies.
+                        </div>
+                    </li>
+                    <li>
+                        <div class="link-title"><a href="https://www.youtube.com/watch?v=wBp0Rb-ZJak" target="_blank">
+                                <h3> The Complete Linux Course: Beginner to Power User!</h3>
+                            </a></div>
+                        <div class="link-content">If you want to get started using Linux, you will LOVE this course!
+                            This 7+ hour Ubuntu Linux tutorial will take you from beginner to power user. We will cover
+                            installation, command line, administrative privileges, app development, server hosting,
+                            GitHub, and much more!
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- End of Popup -->
+
+    <!-- End of Footer -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
 
