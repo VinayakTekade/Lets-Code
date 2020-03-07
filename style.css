@@ -1,4 +1,10 @@
+html {
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+  
   body {
+    transition: 0.2s;
     margin: 0;
     background-color: #272727;
     color: #747474;
