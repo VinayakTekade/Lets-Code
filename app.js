@@ -1,5 +1,8 @@
 $(window).on('load', function(){
     
+   $('.popup').hide();
+   $('.popup-text').hide();
+
     //Terminal
      $("#terminal").click(function(){
         $('.popup').show();
